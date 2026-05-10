@@ -12,7 +12,7 @@
 </div>
 
 ---
-<img width="2000" height="1124" alt="AI Presentation" src="https://github.com/user-attachments/assets/bbd89c2f-4a04-4ee3-89cd-4261ee74170a" />
+<img width="2000" height="1124" alt="AI Presentation" src="https://github.com/user-attachments/assets/53813dde-4bf6-40fe-8b3e-ebd0c67be023" />
 
 ##  The Thesis
 
