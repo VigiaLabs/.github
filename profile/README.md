@@ -12,8 +12,9 @@
 </div>
 
 ---
+<img width="2000" height="1124" alt="AI Presentation" src="https://github.com/user-attachments/assets/bbd89c2f-4a04-4ee3-89cd-4261ee74170a" />
 
-## 🌍 The Thesis
+##  The Thesis
 
 A pothole can cause a fatal accident today, but a city won't know it exists for another 12 months. 
 
