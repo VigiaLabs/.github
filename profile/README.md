@@ -25,17 +25,17 @@ Municipalities globally spend **$89B/year** managing road networks using periodi
 
 ---
 
-## 🏗️ The Ecosystem
+##  The Ecosystem
 
 VIGIA is a full-stack, vertically integrated protocol. Explore our core repositories:
 
-* 💻 **[vigia-amazon](https://github.com/BlueWaves-afk/vigia-amazon): The Brain.** The Road Intelligence IDE and AWS Serverless Multi-Agent System. Routes edge telemetry to Vision Language Models for deepfake detection and hazard verification.
-* 📸 **[vigia-raspi](https://github.com/BlueWaves-afk/vigia-raspi): The Edge.** Our hardware-agnostic edge client. Runs YOLOv26 ONNX models locally on a $48 Raspberry Pi 4, executing spatial hashing and 99% noise filtration before hitting the cloud.
-* ⛓️ **[vigia-solana](https://github.com/BlueWaves-afk/vigia-solana): The Settlement.** Native Anchor smart contracts executing our high-frequency spatial consensus, Sybil defense, and `$VIGIA` token minting on the Solana Devnet.
+*  **[vigia-amazon](https://github.com/BlueWaves-afk/vigia-amazon): The Brain.** The Road Intelligence IDE and AWS Serverless Multi-Agent System. Routes edge telemetry to Vision Language Models for deepfake detection and hazard verification.
+*  **[vigia-raspi](https://github.com/BlueWaves-afk/vigia-raspi): The Edge.** Our hardware-agnostic edge client. Runs YOLOv26 ONNX models locally on a $48 Raspberry Pi 4, executing spatial hashing and 99% noise filtration before hitting the cloud.
+*  **[vigia-solana](https://github.com/BlueWaves-afk/vigia-solana): The Settlement.** Native Anchor smart contracts executing our high-frequency spatial consensus, Sybil defense, and `$VIGIA` token minting on the Solana Devnet.
 
 ---
 
-## 🏰 Our Technical Moat (The 3-Layer Architecture)
+##  Our Technical Moat (The 3-Layer Architecture)
 
 We don't rely on expensive proprietary hardware. We trade hardware friction for algorithmic and economic security, unlocking infinite scalability.
 
@@ -51,7 +51,7 @@ To solve the Oracle Problem without hardware enclaves, we utilize Solana's sub-p
 
 ---
 
-## 📈 Unit Economics & BME Flywheel
+##  Unit Economics & BME Flywheel
 
 Most DePINs fail because they lack fiat enterprise demand. VIGIA is built on a ruthless B2B SaaS margin model that silently fuels a Web3 economy.
 
@@ -69,14 +69,14 @@ Most DePINs fail because they lack fiat enterprise demand. VIGIA is built on a r
 
 ---
 
-## 🏆 Team & Traction
+##  Team & Traction
 
 VIGIA is engineered by a team of deep-tech systems architects specializing in Edge AI, Computer Vision, and highly-optimized cloud infrastructure. 
 
 We don't just write whitepapers; we ship production-grade systems. Our underlying architecture and team execution have been recognized globally:
-* 🥇 **Winners:** National ARM Hackathon (i.mobilothon)
-* 🌐 **Top 50 Finalists:** Amazon AIdeas Global Challenge
-* ⛓️ **Live:** Fully operational on Solana Devnet and AWS
+*  **Winners:** National ARM Hackathon (i.mobilothon)
+*  **Top 50 Finalists:** Amazon AIdeas Global Challenge
+*  **Live:** Fully operational on Solana Devnet and AWS
 
 **Founder / Architect:** Tom Mathew & Team  
 **Contact:** tom@vigia.network
