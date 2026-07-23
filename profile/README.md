@@ -1,84 +1,89 @@
 <div align="center">
   <img src="https://img.shields.io/badge/VIGIA-Network-000000?style=for-the-badge&logo=github&logoColor=white" alt="VIGIA Network" />
-  <h1>VIGIA: The Operating System for Physical Infrastructure</h1>
-  <p><strong>A hardware-agnostic DePIN network replacing $150,000 LiDAR surveys with real-time, edge-AI road intelligence.</strong></p>
+
+  <h1>VIGIA — The Operating System for Physical Infrastructure</h1>
+
+  <p><strong>A hardware-agnostic DePIN network that replaces $150,000 LiDAR surveys with real-time, edge-AI road intelligence.</strong></p>
 
   <p>
     <img alt="Solana" src="https://img.shields.io/badge/Settlement-Solana-9945FF?style=flat-square&logo=solana&logoColor=white">
     <img alt="AWS" src="https://img.shields.io/badge/Compute-AWS%20Serverless-FF9900?style=flat-square&logo=amazonaws&logoColor=white">
     <img alt="Edge" src="https://img.shields.io/badge/Edge-ONNX%20%2B%20ARM-00979D?style=flat-square&logo=arm&logoColor=white">
-    <img alt="Margins" src="https://img.shields.io/badge/Gross_Margin-96.9%25-00C853?style=flat-square">
+    <img alt="Gross Margin" src="https://img.shields.io/badge/Gross_Margin-96.9%25-00C853?style=flat-square">
   </p>
 </div>
 
 ---
-<img width="2000" height="1124" alt="AI Presentation" src="https://github.com/user-attachments/assets/53813dde-4bf6-40fe-8b3e-ebd0c67be023" />
 
-##  The Thesis
+<img width="2000" height="1124" alt="VIGIA Network" src="https://github.com/user-attachments/assets/53813dde-4bf6-40fe-8b3e-ebd0c67be023" />
 
-A pothole can cause a fatal accident today, but a city won't know it exists for another 12 months. 
+## 🎯 The Thesis
 
-Municipalities globally spend **$89B/year** managing road networks using periodic LiDAR vans that cost up to $10,000 per lane-mile. Data is stale the moment it is recorded. VIGIA fixes this by treating physical roads like software. We deploy a decentralized physical infrastructure network (DePIN) of edge nodes that provide continuous, AI-verified observability into global road conditions.
+**A pothole can kill someone today — but the city won't know it exists for another 12 months.**
 
-**For Municipalities & Enterprises:** A B2B SaaS platform delivering real-time predictive maintenance and hazard mapping.  
-**For Node Operators:** A mathematically sustained Burn-and-Mint Equilibrium (BME) economy where a $48 hardware investment breaks even in under 2 months.
+Municipalities spend **$89B a year** managing road networks with periodic LiDAR vans that cost up to **$10,000 per lane-mile** and produce data that is stale the moment it's recorded. VIGIA treats physical roads like software: a decentralized physical infrastructure network (DePIN) of edge nodes that deliver continuous, AI-verified observability into road conditions worldwide.
 
----
-
-##  The Ecosystem
-
-VIGIA is a full-stack, vertically integrated protocol. Explore our core repositories:
-
-*  **[vigia-amazon](https://github.com/BlueWaves-afk/vigia-amazon): The Brain.** The Road Intelligence IDE and AWS Serverless Multi-Agent System. Routes edge telemetry to Vision Language Models for deepfake detection and hazard verification.
-*  **[vigia-raspi](https://github.com/BlueWaves-afk/vigia-raspi): The Edge.** Our hardware-agnostic edge client. Runs YOLOv26 ONNX models locally on a $48 Raspberry Pi 4, executing spatial hashing and 99% noise filtration before hitting the cloud.
-*  **[vigia-solana](https://github.com/BlueWaves-afk/vigia-solana): The Settlement.** Native Anchor smart contracts executing our high-frequency spatial consensus, Sybil defense, and `$VIGIA` token minting on the Solana Devnet.
+- **For municipalities & enterprises** — a B2B SaaS platform for real-time predictive maintenance and hazard mapping.
+- **For node operators** — a mathematically sustained **Burn-and-Mint Equilibrium (BME)** economy where a **$48 hardware investment breaks even in under 2 months.**
 
 ---
 
-##  Our Technical Moat (The 3-Layer Architecture)
+## 🧩 The Ecosystem
 
-We don't rely on expensive proprietary hardware. We trade hardware friction for algorithmic and economic security, unlocking infinite scalability.
+VIGIA is a full-stack, vertically integrated protocol. Explore the core repositories:
 
-### 1. Hardware-Agnostic Edge (Absolute Scale)
-Instead of forcing users to buy $500 proprietary dashcams, VIGIA runs on off-the-shelf ARM hardware (like a Raspberry Pi 4) or mobile devices. The edge model operates at 60ms/frame in-browser, Ed25519-signs the payload, and filters out 99% of non-actionable frames to protect cloud bandwidth.
-
-### 2. AWS Multi-Agent System (The AI Firewall)
-Before a byte touches the blockchain, telemetry routes through our AWS serverless orchestrator. Vision Language Models (Amazon Bedrock Nova Lite) autonomously grade footage, flag impossible physics, and quarantine deepfakes. 
-* **The VC Metric:** Because of our edge-filtration, **our entire AWS backend costs exactly $0.31 per node, per month.**
-
-### 3. Solana Spatial Consensus (Sub-Penny Settlement)
-To solve the Oracle Problem without hardware enclaves, we utilize Solana's sub-penny fees and state compression. The smart contract requires multiple independent nodes to pass the same H3 spatial index before validating a hazard. The system autonomously mints micro-bounties directly to driver wallets in under 400ms.
+| Repo | Layer | What it does |
+| :--- | :--- | :--- |
+| **[vigia-amazon](https://github.com/BlueWaves-afk/vigia-amazon)** | 🧠 The Brain | Road Intelligence IDE + AWS serverless multi-agent system. Routes edge telemetry to Vision-Language Models for deepfake detection and hazard verification. |
+| **[vigia-raspi](https://github.com/BlueWaves-afk/vigia-raspi)** | 📡 The Edge | Hardware-agnostic edge client. Runs YOLOv26 ONNX locally on a $48 Raspberry Pi 4 — spatial hashing + 99% noise filtration before anything hits the cloud. |
+| **[vigia-solana](https://github.com/BlueWaves-afk/vigia-solana)** | ⛓️ The Settlement | Native Anchor smart contracts for high-frequency spatial consensus, Sybil defense, and `$VIGIA` minting on Solana Devnet. |
 
 ---
 
-##  Unit Economics & BME Flywheel
+## 🏗️ The Technical Moat — a 3-Layer Architecture
 
-Most DePINs fail because they lack fiat enterprise demand. VIGIA is built on a ruthless B2B SaaS margin model that silently fuels a Web3 economy.
+We don't depend on expensive proprietary hardware. We trade hardware friction for **algorithmic and economic security**, which is what unlocks near-infinite scale.
 
-| Metric | Enterprise Survey (Legacy) | VIGIA Network | The VIGIA Advantage |
+### 1. Hardware-Agnostic Edge — *absolute scale*
+No $500 proprietary dashcams. VIGIA runs on off-the-shelf ARM hardware (a Raspberry Pi 4) or a mobile device. The edge model runs at **60 ms/frame**, `Ed25519`-signs each payload, and discards **99% of non-actionable frames** to protect cloud bandwidth.
+
+### 2. AWS Multi-Agent System — *the AI firewall*
+Before a single byte reaches the blockchain, telemetry passes through our AWS serverless orchestrator, where Vision-Language Models (**Amazon Bedrock Nova Lite**) autonomously grade footage, flag impossible physics, and quarantine deepfakes.
+> **The VC metric:** thanks to edge filtration, the **entire AWS backend costs $0.31 per node, per month.**
+
+### 3. Solana Spatial Consensus — *sub-penny settlement*
+To solve the Oracle Problem without hardware enclaves, we lean on Solana's sub-penny fees and state compression. The contract requires **multiple independent nodes to agree on the same H3 spatial index** before a hazard is validated — then mints micro-bounties to driver wallets in **under 400 ms**.
+
+---
+
+## 📈 Unit Economics & the BME Flywheel
+
+Most DePINs fail because they lack real fiat enterprise demand. VIGIA is built on a ruthless B2B SaaS margin model that quietly funds a Web3 economy.
+
+| Metric | Legacy Enterprise Survey | VIGIA Network | The VIGIA Advantage |
 | :--- | :--- | :--- | :--- |
-| **City-Wide Survey Cost** | $150,000+ Annually | $500 / month (50 nodes) | **95% Cost Reduction** |
-| **Cloud Cost per Node** | N/A | $0.31 / month | **Maximum Capital Efficiency** |
-| **B2B Gross Margin** | 20 - 40% (Hardware heavy) | **96.9%** ($10 rev / $0.31 cost) | **Software-grade Scalability** |
-| **Hardware ROI (Driver)** | N/A | **< 2 Months** ($48 cost) | **Rapid Network Bootstrapping** |
+| **City-wide survey cost** | $150,000+ / year | $500 / month (50 nodes) | **95% cost reduction** |
+| **Cloud cost per node** | N/A | $0.31 / month | **Maximum capital efficiency** |
+| **B2B gross margin** | 20–40% (hardware-heavy) | **96.9%** ($10 rev / $0.31 cost) | **Software-grade scalability** |
+| **Hardware ROI (driver)** | N/A | **< 2 months** ($48 cost) | **Rapid network bootstrapping** |
 
-### The Token Mechanics
-1.  **Mint:** Drivers run edge nodes and earn `$VIGIA` for algorithmic Proof of Physical Work.
-2.  **Burn:** Municipalities and insurers pay a fixed **fiat** subscription for dashboard API access.
-3.  **Equilibrium:** VIGIA autonomously buys and burns `$VIGIA` on the open market using enterprise fiat, insulating governments from crypto volatility while driving deflationary value to node operators.
+### Token mechanics
+1. **Mint** — drivers run edge nodes and earn `$VIGIA` for algorithmic Proof of Physical Work.
+2. **Burn** — municipalities and insurers pay a fixed **fiat** subscription for dashboard/API access.
+3. **Equilibrium** — VIGIA autonomously buys and burns `$VIGIA` on the open market using enterprise fiat, insulating governments from crypto volatility while driving deflationary value to node operators.
 
 ---
 
-##  Team & Traction
+## 🏆 Team & Traction
 
-VIGIA is engineered by a team of deep-tech systems architects specializing in Edge AI, Computer Vision, and highly-optimized cloud infrastructure. 
+VIGIA is engineered by deep-tech systems architects specializing in Edge AI, computer vision, and cost-optimized cloud infrastructure. We ship production-grade systems, not whitepapers — and our execution has been recognized nationally and globally:
 
-We don't just write whitepapers; we ship production-grade systems. Our underlying architecture and team execution have been recognized globally:
-*  **Winners:** National ARM Hackathon (i.mobilothon)
-*  **Top 50 Finalists:** Amazon AIdeas Global Challenge
-*  **Live:** Fully operational on Solana Devnet and AWS
+- 🥇 **2× National Winners** — i.mobilothon (ARM / Volkswagen) & Bharat AI SoC
+- 🌍 **Global Finalist** — Amazon AIdeas Global Challenge
+- 🇮🇳 **National Finalist** — BIMSTEC × IIT Madras Road Safety Hackathon 2026
+- 🟢 **Live** — fully operational on Solana Devnet + AWS
 
-**Founder / Architect:** Tom Mathew & Team  
+**Founder / Architect:** Tom Mathew & Team
 **Contact:** tom@vigia.network
 
 <div align="center">
