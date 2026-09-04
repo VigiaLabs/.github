@@ -1,92 +1,81 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/VIGIA-Network-000000?style=for-the-badge&logo=github&logoColor=white" alt="VIGIA Network" />
-
-  <h1>VIGIA — The Operating System for Physical Infrastructure</h1>
-
-  <p><strong>A hardware-agnostic DePIN network that replaces $150,000 LiDAR surveys with real-time, edge-AI road intelligence.</strong></p>
-
+  <img width="72" src="https://raw.githubusercontent.com/VigiaLabs/vigia-web/main/public/armillary-globe.svg" alt="VIGIA armillary globe mark" />
+  <h1>VIGIA</h1>
+  <p><strong>Applied intelligence for real places.</strong><br />
+  Edge-AI systems for safer roads and better early warning at wildlife corridors.</p>
   <p>
-    <img alt="Solana" src="https://img.shields.io/badge/Settlement-Solana-9945FF?style=flat-square&logo=solana&logoColor=white">
-    <img alt="AWS" src="https://img.shields.io/badge/Compute-AWS%20Serverless-FF9900?style=flat-square&logo=amazonaws&logoColor=white">
-    <img alt="Edge" src="https://img.shields.io/badge/Edge-ONNX%20%2B%20ARM-00979D?style=flat-square&logo=arm&logoColor=white">
-    <img alt="Gross Margin" src="https://img.shields.io/badge/Gross_Margin-96.9%25-00C853?style=flat-square">
+    <a href="https://vigia-web-xi.vercel.app">Website</a> ·
+    <a href="https://vigia-web-xi.vercel.app/products/kavach">Kavach</a> ·
+    <a href="https://vigia-web-xi.vercel.app/products/agradoot">Agradoot</a> ·
+    <a href="https://ridingbluewaves.hashnode.dev">Field notes</a>
   </p>
 </div>
 
----
+VIGIA is an applied-AI team from NIT Rourkela. We build systems that sense what is happening in the physical world, explain what they found, and leave behind evidence that people can review.
 
-<img width="2000" height="1124" alt="VIGIA Network" src="https://github.com/user-attachments/assets/53813dde-4bf6-40fe-8b3e-ebd0c67be023" />
+Our work is early by design. Each product page separates what is already useful from what still needs a careful pilot.
 
-## 🎯 The Thesis
+## Two products
 
-**A pothole can kill someone today — but the city won't know it exists for another 12 months.**
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img width="48" src="https://raw.githubusercontent.com/VigiaLabs/vigia-web/main/public/armillary-globe.svg" alt="Red VIGIA Kavach mark" />
+      <h3><a href="https://vigia-web-xi.vercel.app/products/kavach">VIGIA Kavach</a></h3>
+      <p><strong>Honest driving assessment.</strong></p>
+      <p>A conversational AI driving examiner that assesses and teaches in real time, applies one shared rubric, and produces a cryptographically signed report for review.</p>
+      <p><strong>Now:</strong> PoC and driving-school or RTO pilot validation.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img width="48" src="https://raw.githubusercontent.com/VigiaLabs/vigia-web/main/public/armillary-globe-agradoot.svg" alt="Green VIGIA Agradoot mark" />
+      <h3><a href="https://vigia-web-xi.vercel.app/products/agradoot">VIGIA Agradoot</a></h3>
+      <p><strong>Early warning at village and forest interfaces.</strong></p>
+      <p>An elephant-first edge-AI sentinel for point detection, with an experimental seismic layer that could help extend coverage across a corridor.</p>
+      <p><strong>Now:</strong> Odisha pilot proposal and field validation.</p>
+    </td>
+  </tr>
+</table>
 
-Municipalities spend **$89B a year** managing road networks with periodic LiDAR vans that cost up to **$10,000 per lane-mile** and produce data that is stale the moment it's recorded. VIGIA treats physical roads like software: a decentralized physical infrastructure network (DePIN) of edge nodes that deliver continuous, AI-verified observability into road conditions worldwide.
+## How we work
 
-- **For municipalities & enterprises** — a B2B SaaS platform for real-time predictive maintenance and hazard mapping.
-- **For node operators** — a mathematically sustained **Burn-and-Mint Equilibrium (BME)** economy where a **$48 hardware investment breaks even in under 2 months.**
+- **Edge first:** make the useful decision close to the sensor, even when connectivity is limited.
+- **Human review:** assist operators, examiners, and field teams rather than hiding uncertainty behind a score.
+- **Evidence over theatre:** record the inputs, confidence, and limits needed to review a result later.
+- **Measured pilots:** turn a plausible technical idea into a scoped test with a clear success condition.
 
----
+## Proof, not promises
 
-## 🧩 The Ecosystem
-
-VIGIA is a full-stack, vertically integrated protocol. Explore the core repositories:
-
-| Repo | Layer | What it does |
+| Milestone | Result | Link |
 | :--- | :--- | :--- |
-| **[vigia-amazon](https://github.com/BlueWaves-afk/vigia-amazon)** | 🧠 The Brain | Road Intelligence IDE + AWS serverless multi-agent system. Routes edge telemetry to Vision-Language Models for deepfake detection and hazard verification. |
-| **[vigia-raspi](https://github.com/BlueWaves-afk/vigia-raspi)** | 📡 The Edge | Hardware-agnostic edge client. Runs YOLOv26 ONNX locally on a $48 Raspberry Pi 4 — spatial hashing + 99% noise filtration before anything hits the cloud. |
-| **[vigia-solana](https://github.com/BlueWaves-afk/vigia-solana)** | ⛓️ The Settlement | Native Anchor smart contracts for high-frequency spatial consensus, Sybil defense, and `$VIGIA` minting on Solana Devnet. |
+| BIMSTEC AI Road Safety Hackathon, Centre of Excellence for Road Safety, IIT Madras | Finalist | [Read the update](https://www.linkedin.com/feed/update/urn:li:activity:7489696651314540545/) |
+| Bharat AI-SoC Hackathon | Winner, first place | [Read the update](https://www.linkedin.com/feed/update/urn:li:activity:7460708339849760768/) |
+| Volkswagen i.mobilothon 5.0, Student Track | Winner | [Read the update](https://www.linkedin.com/feed/update/urn:li:activity:7404566041781010432/) |
 
----
+These wins helped define the direction we are taking forward: practical computer vision, edge hardware, and systems that can be tested outside a slide deck.
 
-## 🏗️ The Technical Moat — a 3-Layer Architecture
+## Selected repositories
 
-We don't depend on expensive proprietary hardware. We trade hardware friction for **algorithmic and economic security**, which is what unlocks near-infinite scale.
+- [vigia-web](https://github.com/VigiaLabs/vigia-web): the product site, pilot briefs, field notes, and responsible-use documentation.
+- [vigia-raspi](https://github.com/VigiaLabs/vigia-raspi): a multimodal, event-driven perception system optimized for ARM edge devices.
 
-### 1. Hardware-Agnostic Edge — *absolute scale*
-No $500 proprietary dashcams. VIGIA runs on off-the-shelf ARM hardware (a Raspberry Pi 4) or a mobile device. The edge model runs at **60 ms/frame**, `Ed25519`-signs each payload, and discards **99% of non-actionable frames** to protect cloud bandwidth.
+The organisation page contains additional experiments. The two products above are the current focus.
 
-### 2. AWS Multi-Agent System — *the AI firewall*
-Before a single byte reaches the blockchain, telemetry passes through our AWS serverless orchestrator, where Vision-Language Models (**Amazon Bedrock Nova Lite**) autonomously grade footage, flag impossible physics, and quarantine deepfakes.
-> **The VC metric:** thanks to edge filtration, the **entire AWS backend costs $0.31 per node, per month.**
+## The team
 
-### 3. Solana Spatial Consensus — *sub-penny settlement*
-To solve the Oracle Problem without hardware enclaves, we lean on Solana's sub-penny fees and state compression. The contract requires **multiple independent nodes to agree on the same H3 spatial index** before a hazard is validated — then mints micro-bounties to driver wallets in **under 400 ms**.
+Tom Mathew, Ben Biju, Shreeram, and collaborators. We are a small student-built team that designs, builds, and documents the systems ourselves.
 
----
+## Work with us
 
-## 📈 Unit Economics & the BME Flywheel
+We are looking for a documented road-safety or wildlife-conflict setting where a focused pilot can answer a real operational question.
 
-Most DePINs fail because they lack real fiat enterprise demand. VIGIA is built on a ruthless B2B SaaS margin model that quietly funds a Web3 economy.
+- [Discuss a Kavach or Agradoot pilot](https://vigia-web-xi.vercel.app/contact-sales)
+- [Read the product site](https://vigia-web-xi.vercel.app)
+- [Follow the field notes](https://ridingbluewaves.hashnode.dev)
+- [Open a question or proposal](https://github.com/VigiaLabs/vigia-web/issues)
 
-| Metric | Legacy Enterprise Survey | VIGIA Network | The VIGIA Advantage |
-| :--- | :--- | :--- | :--- |
-| **City-wide survey cost** | $150,000+ / year | $500 / month (50 nodes) | **95% cost reduction** |
-| **Cloud cost per node** | N/A | $0.31 / month | **Maximum capital efficiency** |
-| **B2B gross margin** | 20–40% (hardware-heavy) | **96.9%** ($10 rev / $0.31 cost) | **Software-grade scalability** |
-| **Hardware ROI (driver)** | N/A | **< 2 months** ($48 cost) | **Rapid network bootstrapping** |
-
-### Token mechanics
-1. **Mint** — drivers run edge nodes and earn `$VIGIA` for algorithmic Proof of Physical Work.
-2. **Burn** — municipalities and insurers pay a fixed **fiat** subscription for dashboard/API access.
-3. **Equilibrium** — VIGIA autonomously buys and burns `$VIGIA` on the open market using enterprise fiat, insulating governments from crypto volatility while driving deflationary value to node operators.
-
----
-
-## 🏆 Team & Traction
-
-VIGIA is engineered by deep-tech systems architects specializing in Edge AI, computer vision, and cost-optimized cloud infrastructure. We ship production-grade systems, not whitepapers — and our execution has been recognized nationally and globally:
-
-- 🥇 **2× National Winners** — i.mobilothon (ARM / Volkswagen) & Bharat AI SoC
-- 🌍 **Global Finalist** — Amazon AIdeas Global Challenge
-- 🇮🇳 **National Finalist** — BIMSTEC × IIT Madras Road Safety Hackathon 2026
-- 🟢 **Live** — fully operational on Solana Devnet + AWS
-
-**Founder / Architect:** Tom Mathew & Team
-**Contact:** tom@vigia.network
+> The website labels pilot targets, illustrative screens, and experimental hypotheses explicitly. A page is an invitation to test, not a production guarantee.
 
 <div align="center">
-  <br/>
-  <i>Welcome to the future of decentralized physical infrastructure.</i>
+  <br />
+  <sub>VIGIA · edge intelligence for safer roads and living landscapes</sub>
 </div>
